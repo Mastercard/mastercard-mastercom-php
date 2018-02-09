@@ -1,0 +1,27 @@
+TAP version 13
+ok 1 - MasterCard\Api\Mastercom\CaseFilingTest::test_create_case_sample
+ok 2 - MasterCard\Api\Mastercom\CaseFilingTest::test_retrieve_case_doc_sample
+ok 3 - MasterCard\Api\Mastercom\CaseFilingTest::test_update_case_sample
+ok 4 - MasterCard\Api\Mastercom\ChargebacksTest::test_create_chargeback_sample
+ok 5 - MasterCard\Api\Mastercom\ChargebacksTest::test_create_chargeback_reversal_sample
+ok 6 - MasterCard\Api\Mastercom\ChargebacksTest::test_retrieve_chargeback_doc_sample
+ok 7 - MasterCard\Api\Mastercom\ChargebacksTest::test_get_data_for_create_chargeback_sample
+ok 8 - MasterCard\Api\Mastercom\ChargebacksTest::test_update_chargeback_sample
+ok 9 - MasterCard\Api\Mastercom\ClaimsTest::test_create_claim_sample
+ok 10 - MasterCard\Api\Mastercom\ClaimsTest::test_get_claim_sample
+ok 11 - MasterCard\Api\Mastercom\ClaimsTest::test_update_claim_sample
+ok 12 - MasterCard\Api\Mastercom\FeesTest::test_create_fee_sample
+ok 13 - MasterCard\Api\Mastercom\FeesTest::test_get_data_for_create_fee_sample
+ok 14 - MasterCard\Api\Mastercom\FraudTest::test_create_fraud_sample
+ok 15 - MasterCard\Api\Mastercom\FraudTest::test_get_data_for_create_fraud_sample
+ok 16 - MasterCard\Api\Mastercom\QueuesTest::test_get_claims_from_queue_sample
+ok 17 - MasterCard\Api\Mastercom\QueuesTest::test_get_queuename_sample
+ok 18 - MasterCard\Api\Mastercom\RetrievalsTest::test_fulfill_retrieval_sample
+ok 19 - MasterCard\Api\Mastercom\RetrievalsTest::test_create_retrieval_sample
+ok 20 - MasterCard\Api\Mastercom\RetrievalsTest::test_get_data_for_create_retrieval_sample
+ok 21 - MasterCard\Api\Mastercom\RetrievalsTest::test_get_retrieval_doc_sample
+ok 22 - MasterCard\Api\Mastercom\RetrievalsTest::test_fulfill_response_sample
+ok 23 - MasterCard\Api\Mastercom\TransactionsTest::test_transaction_search_clearing_detail_sample
+ok 24 - MasterCard\Api\Mastercom\TransactionsTest::test_transaction_search_auth_detail_sample
+ok 25 - MasterCard\Api\Mastercom\TransactionsTest::test_transaction_search_sample
+1..25

@@ -1,0 +1,41 @@
+MasterCard\Api\Mastercom\CaseFiling
+ [x] create case sample
+ [x] retrieve case doc sample
+ [x] update case sample
+
+MasterCard\Api\Mastercom\Chargebacks
+ [x] create chargeback sample
+ [x] create chargeback reversal sample
+ [x] retrieve chargeback doc sample
+ [x] get data for create chargeback sample
+ [x] update chargeback sample
+
+MasterCard\Api\Mastercom\Claims
+ [x] create claim sample
+ [x] get claim sample
+ [x] update claim sample
+
+MasterCard\Api\Mastercom\Fees
+ [x] create fee sample
+ [x] get data for create fee sample
+
+MasterCard\Api\Mastercom\Fraud
+ [x] create fraud sample
+ [x] get data for create fraud sample
+
+MasterCard\Api\Mastercom\Queues
+ [x] get claims from queue sample
+ [x] get queuename sample
+
+MasterCard\Api\Mastercom\Retrievals
+ [x] fulfill retrieval sample
+ [x] create retrieval sample
+ [x] get data for create retrieval sample
+ [x] get retrieval doc sample
+ [x] fulfill response sample
+
+MasterCard\Api\Mastercom\Transactions
+ [x] transaction search clearing detail sample
+ [x] transaction search auth detail sample
+ [x] transaction search sample
+
