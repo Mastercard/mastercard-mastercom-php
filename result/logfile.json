@@ -1,0 +1,323 @@
+{
+    "event": "suiteStart",
+    "suite": "Application Test Suite",
+    "tests": 22
+}{
+    "event": "suiteStart",
+    "suite": "MasterCard\\Api\\Mastercom\\CaseFilingTest",
+    "tests": 2
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\CaseFilingTest",
+    "test": "MasterCard\\Api\\Mastercom\\CaseFilingTest::test_create_case_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\CaseFilingTest",
+    "test": "MasterCard\\Api\\Mastercom\\CaseFilingTest::test_create_case_sample",
+    "status": "pass",
+    "time": 0.67221593856812,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\CaseFilingTest",
+    "test": "MasterCard\\Api\\Mastercom\\CaseFilingTest::test_update_case_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\CaseFilingTest",
+    "test": "MasterCard\\Api\\Mastercom\\CaseFilingTest::test_update_case_sample",
+    "status": "pass",
+    "time": 0.46350502967834,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "MasterCard\\Api\\Mastercom\\ChargebacksTest",
+    "tests": 4
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\ChargebacksTest",
+    "test": "MasterCard\\Api\\Mastercom\\ChargebacksTest::test_create_chargeback_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\ChargebacksTest",
+    "test": "MasterCard\\Api\\Mastercom\\ChargebacksTest::test_create_chargeback_sample",
+    "status": "pass",
+    "time": 0.4890730381012,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\ChargebacksTest",
+    "test": "MasterCard\\Api\\Mastercom\\ChargebacksTest::test_create_chargeback_reversal_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\ChargebacksTest",
+    "test": "MasterCard\\Api\\Mastercom\\ChargebacksTest::test_create_chargeback_reversal_sample",
+    "status": "pass",
+    "time": 0.47658681869507,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\ChargebacksTest",
+    "test": "MasterCard\\Api\\Mastercom\\ChargebacksTest::test_get_data_for_create_chargeback_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\ChargebacksTest",
+    "test": "MasterCard\\Api\\Mastercom\\ChargebacksTest::test_get_data_for_create_chargeback_sample",
+    "status": "pass",
+    "time": 0.38861393928528,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\ChargebacksTest",
+    "test": "MasterCard\\Api\\Mastercom\\ChargebacksTest::test_update_chargeback_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\ChargebacksTest",
+    "test": "MasterCard\\Api\\Mastercom\\ChargebacksTest::test_update_chargeback_sample",
+    "status": "pass",
+    "time": 0.40989804267883,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "MasterCard\\Api\\Mastercom\\ClaimsTest",
+    "tests": 3
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\ClaimsTest",
+    "test": "MasterCard\\Api\\Mastercom\\ClaimsTest::test_create_claim_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\ClaimsTest",
+    "test": "MasterCard\\Api\\Mastercom\\ClaimsTest::test_create_claim_sample",
+    "status": "pass",
+    "time": 0.45206594467163,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\ClaimsTest",
+    "test": "MasterCard\\Api\\Mastercom\\ClaimsTest::test_get_claim_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\ClaimsTest",
+    "test": "MasterCard\\Api\\Mastercom\\ClaimsTest::test_get_claim_sample",
+    "status": "pass",
+    "time": 0.47536587715149,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\ClaimsTest",
+    "test": "MasterCard\\Api\\Mastercom\\ClaimsTest::test_update_claim_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\ClaimsTest",
+    "test": "MasterCard\\Api\\Mastercom\\ClaimsTest::test_update_claim_sample",
+    "status": "pass",
+    "time": 0.31921410560608,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "MasterCard\\Api\\Mastercom\\FeesTest",
+    "tests": 2
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\FeesTest",
+    "test": "MasterCard\\Api\\Mastercom\\FeesTest::test_create_fee_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\FeesTest",
+    "test": "MasterCard\\Api\\Mastercom\\FeesTest::test_create_fee_sample",
+    "status": "pass",
+    "time": 0.37301397323608,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\FeesTest",
+    "test": "MasterCard\\Api\\Mastercom\\FeesTest::test_get_data_for_create_fee_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\FeesTest",
+    "test": "MasterCard\\Api\\Mastercom\\FeesTest::test_get_data_for_create_fee_sample",
+    "status": "pass",
+    "time": 0.40508389472961,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "MasterCard\\Api\\Mastercom\\FraudTest",
+    "tests": 2
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\FraudTest",
+    "test": "MasterCard\\Api\\Mastercom\\FraudTest::test_create_fraud_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\FraudTest",
+    "test": "MasterCard\\Api\\Mastercom\\FraudTest::test_create_fraud_sample",
+    "status": "pass",
+    "time": 0.40366196632385,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\FraudTest",
+    "test": "MasterCard\\Api\\Mastercom\\FraudTest::test_get_data_for_create_fraud_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\FraudTest",
+    "test": "MasterCard\\Api\\Mastercom\\FraudTest::test_get_data_for_create_fraud_sample",
+    "status": "pass",
+    "time": 0.39448094367981,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "MasterCard\\Api\\Mastercom\\QueuesTest",
+    "tests": 2
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\QueuesTest",
+    "test": "MasterCard\\Api\\Mastercom\\QueuesTest::test_get_claims_from_queue_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\QueuesTest",
+    "test": "MasterCard\\Api\\Mastercom\\QueuesTest::test_get_claims_from_queue_sample",
+    "status": "pass",
+    "time": 0.35181188583374,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\QueuesTest",
+    "test": "MasterCard\\Api\\Mastercom\\QueuesTest::test_get_queuename_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\QueuesTest",
+    "test": "MasterCard\\Api\\Mastercom\\QueuesTest::test_get_queuename_sample",
+    "status": "pass",
+    "time": 0.39170789718628,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "MasterCard\\Api\\Mastercom\\RetrievalsTest",
+    "tests": 4
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\RetrievalsTest",
+    "test": "MasterCard\\Api\\Mastercom\\RetrievalsTest::test_fulfill_retrieval_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\RetrievalsTest",
+    "test": "MasterCard\\Api\\Mastercom\\RetrievalsTest::test_fulfill_retrieval_sample",
+    "status": "pass",
+    "time": 0.37119293212891,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\RetrievalsTest",
+    "test": "MasterCard\\Api\\Mastercom\\RetrievalsTest::test_create_retrieval_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\RetrievalsTest",
+    "test": "MasterCard\\Api\\Mastercom\\RetrievalsTest::test_create_retrieval_sample",
+    "status": "pass",
+    "time": 0.55295300483704,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\RetrievalsTest",
+    "test": "MasterCard\\Api\\Mastercom\\RetrievalsTest::test_get_data_for_create_retrieval_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\RetrievalsTest",
+    "test": "MasterCard\\Api\\Mastercom\\RetrievalsTest::test_get_data_for_create_retrieval_sample",
+    "status": "pass",
+    "time": 0.37062501907349,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\RetrievalsTest",
+    "test": "MasterCard\\Api\\Mastercom\\RetrievalsTest::test_fulfill_response_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\RetrievalsTest",
+    "test": "MasterCard\\Api\\Mastercom\\RetrievalsTest::test_fulfill_response_sample",
+    "status": "pass",
+    "time": 0.37515783309937,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "MasterCard\\Api\\Mastercom\\TransactionsTest",
+    "tests": 3
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\TransactionsTest",
+    "test": "MasterCard\\Api\\Mastercom\\TransactionsTest::test_transaction_search_clearing_detail_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\TransactionsTest",
+    "test": "MasterCard\\Api\\Mastercom\\TransactionsTest::test_transaction_search_clearing_detail_sample",
+    "status": "pass",
+    "time": 0.26783108711243,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\TransactionsTest",
+    "test": "MasterCard\\Api\\Mastercom\\TransactionsTest::test_transaction_search_auth_detail_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\TransactionsTest",
+    "test": "MasterCard\\Api\\Mastercom\\TransactionsTest::test_transaction_search_auth_detail_sample",
+    "status": "pass",
+    "time": 0.27370095252991,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "MasterCard\\Api\\Mastercom\\TransactionsTest",
+    "test": "MasterCard\\Api\\Mastercom\\TransactionsTest::test_transaction_search_sample"
+}{
+    "event": "test",
+    "suite": "MasterCard\\Api\\Mastercom\\TransactionsTest",
+    "test": "MasterCard\\Api\\Mastercom\\TransactionsTest::test_transaction_search_sample",
+    "status": "pass",
+    "time": 0.27172017097473,
+    "trace": [],
+    "message": "",
+    "output": ""
+}
