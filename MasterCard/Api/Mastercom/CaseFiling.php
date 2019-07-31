@@ -1,0 +1,149 @@
+<?php
+/*
+ * Copyright 2016 MasterCard International.
+ *
+ * Redistribution and use in source and binary forms, with or without modification, are
+ * permitted provided that the following conditions are met:
+ *
+ * Redistributions of source code must retain the above copyright notice, this list of
+ * conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice, this list of
+ * conditions and the following disclaimer in the documentation and/or other materials
+ * provided with the distribution.
+ * Neither the name of the MasterCard International Incorporated nor the names of its
+ * contributors may be used to endorse or promote products derived from this software
+ * without specific prior written permission.
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+ * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+ * SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+ * TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+ * OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER
+ * IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+ * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ */
+
+ namespace MasterCard\Api\Mastercom;
+
+ use MasterCard\Core\Model\BaseObject;
+ use MasterCard\Core\Model\RequestMap;
+ use MasterCard\Core\Model\OperationMetadata;
+ use MasterCard\Core\Model\OperationConfig;
+
+
+/**
+ * 
+ */
+class CaseFiling extends BaseObject {
+
+
+
+    protected static function getOperationConfig($operationUUID) {
+        switch ($operationUUID) {
+            case "6a06e267-97bd-488d-bd54-83fdf7a41c69":
+                return new OperationConfig("/mastercom/v5/cases", "create", array(), array());
+            case "5a1e4c65-46ec-4291-aabf-01697e2e6e2c":
+                return new OperationConfig("/mastercom/v5/cases/{case-id}/documents", "query", array("format","memo"), array());
+            case "3e78caba-3356-4397-9e59-047147564ac3":
+                return new OperationConfig("/mastercom/v5/cases/imagestatus", "update", array(), array());
+            case "36719f82-f8ba-4391-81cf-a01e8aaf3068":
+                return new OperationConfig("/mastercom/v5/cases/status", "update", array(), array());
+            case "3a5f141d-19fe-4b88-92f6-295b8dbd8a39":
+                return new OperationConfig("/mastercom/v5/cases/{case-id}", "update", array(), array());
+            
+            default:
+                throw new \Exception("Invalid operationUUID supplied: $operationUUID");
+        }
+    }
+
+    protected static function getOperationMetadata() {
+        $config = ResourceConfig::getInstance();
+        return new OperationMetadata($config->getVersion(), $config->getHost(), $config->getContext(), $config->getJsonNative(), $config->getContentTypeOverride());
+    }
+
+
+   /**
+    * Creates object of type CaseFiling
+    *
+    * @param Map map, containing the required parameters to create a new object
+    * @return CaseFiling of the response of created instance.
+    */
+    public static function create($map)
+    {
+        return self::execute("6a06e267-97bd-488d-bd54-83fdf7a41c69", new CaseFiling($map));
+    }
+
+
+
+
+
+
+
+
+
+
+    /**
+     * Query objects of type CaseFiling by id and optional criteria
+     *
+     * @param type $criteria
+     *
+     * @throws ApiException - which encapsulates the http status code and the error return by the server
+     *
+     * @return CaseFiling of the response
+     */
+    public static function retrieveDocumentation($criteria)
+    {
+        return self::execute("5a1e4c65-46ec-4291-aabf-01697e2e6e2c",new CaseFiling($criteria));
+    }
+
+    /**
+     * Updates an object of type CaseFiling
+     *
+     * @throws ApiException - which encapsulates the http status code and the error return by the server
+     *
+     * @return CaseFiling of the response
+     */
+    public function caseFilingImageStatus()  {
+        return self::execute("3e78caba-3356-4397-9e59-047147564ac3",$this);
+    }
+
+
+
+
+
+    /**
+     * Updates an object of type CaseFiling
+     *
+     * @throws ApiException - which encapsulates the http status code and the error return by the server
+     *
+     * @return CaseFiling of the response
+     */
+    public function caseFilingStatus()  {
+        return self::execute("36719f82-f8ba-4391-81cf-a01e8aaf3068",$this);
+    }
+
+
+
+
+
+    /**
+     * Updates an object of type CaseFiling
+     *
+     * @throws ApiException - which encapsulates the http status code and the error return by the server
+     *
+     * @return CaseFiling of the response
+     */
+    public function update()  {
+        return self::execute("3a5f141d-19fe-4b88-92f6-295b8dbd8a39",$this);
+    }
+
+
+
+
+
+
+}
+
